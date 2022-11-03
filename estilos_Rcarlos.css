@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
@@ -18,12 +17,25 @@ h2,h3{
     text-align: center;
     background:#373549;
 }
+.grow{
+    padding: 50px;
+    font-size: larger;
+    padding-bottom: 100px;
+}
+.subheader{
+    text-align: center;
+    background-color:#300082;
+    padding: 20px 40px;
+    color:white;
+    margin:0;
+}
 .navegacion{
     background-color:#300082;
     display: flex;
     justify-content: center;
 }
 .navegacion a{
+    transition: all 0.8s ease;
     color:white;
     font-weight: bold;
     float: left;    
@@ -52,6 +64,22 @@ h2,h3{
 #p{
     margin-top: 3%;
 }
-
-
-
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedorCardID a{
+    padding: 15px;
+}
+.cardID{
+    background-color: #cecccc;
+    width: 12%;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.cardID p{
+    color: #1861D0;
+}
+.cardID img{
+    width: 100px;
+}
